@@ -1,0 +1,6 @@
+- A command line tool to creat React app
+    - Development server 
+    - Use ES6 features which are not normal supported
+    _ Keep our code modular 
+    - Use buld tools to create optimized code
+    
