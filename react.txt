@@ -3,4 +3,8 @@
     - Use ES6 features which are not normal supported
     _ Keep our code modular 
     - Use buld tools to create optimized code
-    
+    ls 
+    Single Page Apps
+    Reac apps are typically SPA 
+    Only one ever one HTML page served to the browser 
+    React then contros what a user sees on that page
