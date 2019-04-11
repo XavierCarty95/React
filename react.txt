@@ -8,3 +8,17 @@
     Reac apps are typically SPA 
     Only one ever one HTML page served to the browser 
     React then contros what a user sees on that page
+    
+    Container Components
+    
+        -Contain state 
+        - Contain lifecycle hooks 
+        - Not concerned with UI 
+        - Use classes to create 
+        
+   UI Components
+   
+        - Dont contain state 
+        - Receive data from props 
+        - Only concerned with UI 
+        - Use functions to create State 
