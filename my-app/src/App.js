@@ -14,12 +14,6 @@ class App extends Component {
     ]
   }
   
-  deleteNinja = (id) => {
-    console.log(id)
-    
-  }
-  
- 
   addNinja = (ninja) => {
     
     ninja.id = Math.random();
@@ -29,6 +23,15 @@ class App extends Component {
     })
     
   }
+  
+  deleteNinja = (id) => {
+    console.log(id)
+    
+  }
+  
+ 
+  
+  
   render() {
     return (
       <div className="App">
