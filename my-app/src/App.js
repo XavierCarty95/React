@@ -34,7 +34,7 @@ class App extends Component {
       <div className="App">
         <h1> My first React App</h1>
         <p> Welcome </p>
-        <Ninjas deleteNinjas= {this.deleteNinja} ninjas = {this.state.ninjas}/>
+        <Ninjas deleteNinja= {this.deleteNinja} ninjas = {this.state.ninjas}/>
         <AddNinja addNinja = {this.addNinja}/>
         
       </div>
