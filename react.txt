@@ -22,3 +22,21 @@
         - Receive data from props 
         - Only concerned with UI 
         - Use functions to create State 
+        
+        
+        State Props and Functions 
+        
+        -App.js container is the root 
+        - we define state wit Ninjas props 
+        - We created with ninja componenet 
+        -addNinja trough addNinja.js container funtion 
+        - deleteninja function from app.js containet 
+        to ninja ui componenet 
+        
+        -Virtual DOM constantly updating 
+        every new props updated  virtual Dom 
+        new , then currnet dom 
+        where there are changes then there is where you re-render
+        
+        
+    
