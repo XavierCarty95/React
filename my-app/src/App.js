@@ -29,10 +29,7 @@ class App extends Component {
     
   }
   
- 
-  
-  
-  render() {
+ render() {
     return (
       <div className="App">
         <h1> My first React App</h1>
