@@ -4,7 +4,7 @@ import  './ninjas.css'
 const Ninjas = ({ninjas, deleteNinja}) => {
   return (
     <div className="ninja-list">
-      { 
+      {
         ninjas.map(ninja => {
           return (
             <div className="ninja" key={ninja.id}>
