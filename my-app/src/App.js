@@ -18,7 +18,7 @@ class App extends Component {
     
     ninja.id = Math.random();
     let ninjas = [...this.state.ninjas,ninja]
-    this.setState({
+    this.setState({ 
       ninjas: ninjas
     })
     
@@ -26,6 +26,17 @@ class App extends Component {
   
   deleteNinja = (id) => {
     console.log(id)
+    
+  }
+  
+  componenetDidMount(){
+    console.log('componenet mounted')
+    
+  }
+  
+  componenetDidUpdate(prevProps, prevState){
+  console.log('componenet updated')
+  console.log(prevProps, prevState)
     
   }
   
