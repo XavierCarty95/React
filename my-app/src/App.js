@@ -8,7 +8,7 @@ class App extends Component {
   state = { 
     ninjas : [ { name: 'Xavier', age: 24, belt: 'black' , id: 1}, 
                { name: 'Deshan', age: 29, belt: 'black' , id: 1},
-               { name: 'Tre', age: 23, belt: 'orange', id: 3}
+               { name: 'Tre', age: 23, belt: 'orange', id: 3} 
       
     
     ]
@@ -24,11 +24,11 @@ class App extends Component {
     
   }
   
-  deleteNinja = (id) => {
-    console.log(id)
-    
-  }
-  
+deleteNinja = (id) => {
+
+ let ninjas = this.state.ninjas.filter(ninja => {
+        return ninja.id !== id })
+}
   componenetDidMount(){
     console.log('componenet mounted')
     
