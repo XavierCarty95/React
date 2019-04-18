@@ -38,7 +38,12 @@
         new , then currnet dom 
         where there are changes then there is where you re-render
         
+        react router .. intial request then response from server 
         
+        make request for homepage then reqct is going to upload homecomponent 
+        react router is doing the work , any subsequent request , doesnt go all the way 
+        to the server , react intercepts and serves react component. 
+        Stops request from going to server and coming back. 
         
         
     
