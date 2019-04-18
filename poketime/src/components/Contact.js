@@ -2,12 +2,9 @@ import React from 'react'
 
 
 const Contact = (props) => {
-<<<<<<< HEAD
-    // setTimeout(()=>{
-    //     props.history.push('/about')
-    // },2000)
-=======
->>>>>>> version26
+< setTimeout(() => {
+        props.history('/about')
+    },2000)
     return(
         <div className = "container">
         
