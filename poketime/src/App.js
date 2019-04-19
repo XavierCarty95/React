@@ -4,16 +4,17 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
+import Post from './components/Post'
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
       <div className="App">
         <Navbar/>
-        < Route exact path='/' componenet={Home} />
-        < Route path='/about' componenet={About} />
-        < Route path='/contact' componenet={Contact} />
-        
+        < Route exact path='/' component={Home} />
+        < Route path='/about' component={About} />
+        < Route path='/contact' component={Contact} />
+        < Route path='/:post_id'   component={Post}/>
       </div>
       </BrowserRouter>
     );
