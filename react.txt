@@ -46,4 +46,20 @@
         Stops request from going to server and coming back. 
         
         
+    Route Parameters 
+    
+    Part of a URL that can change 
+    
+    Usually see them on URLs for individual records 
+    
+    User Profile Route 
+    
+    ex . mysite.com/users/yoshisk1
+         mysite.com/users/mariotheman
+         
+         
+    booking recipe page: 
+    
+    mycookingsite.com/recipes/12345
+    mycookingsite.com/recipes/98765
     
