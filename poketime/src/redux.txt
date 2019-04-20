@@ -1,0 +1,9 @@
+Redux is a central data storage
+
+tries to solve complex data storage problems
+
+component passes subscribes to changes props
+
+the reducer updates the central state
+
+action passed to reducers dispatch  component dispatches an action
