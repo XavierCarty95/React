@@ -8,14 +8,26 @@ const initState = {
 
 function myreducer(state = initState , action){ 
   if (action.type = 'ADD_TODO'){
-    return {
+    return { 
+      ...state,
       todos: [...state.todos, action.todo]
     }
   }
-}
 
+ if (action.type = 'ADD_POST'){
+    return { 
+      ...state,
+      posts: [...state.todos, action.todo]
+    }
+  }
+}
 const store = createStore(myreducer);
 
-const todoAction = {type: 'ADD_TODO' , todo: 'buy milk'}
+store.subscribe(()=>{
+  console.log('state updated');
+  console.log(store.getState())
+})
 
-store.dispatch(todoAction)
+store.dispacth({type: 'ADD_TODO', todo: 'buy milk'})
+store.dispacth({type: 'ADD_TODO', todo: 'sleep some more'})
+store.dispacth({type: 'ADD_POST', post: 'Egg hunt with yoshi'})
